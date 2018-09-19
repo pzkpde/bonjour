@@ -1,0 +1,16 @@
+{
+    "name": "pzkpde/bonjour",
+	"autoload": {
+		"psr-4": {
+			"Bonjour\\": "src/"
+		}
+	},
+	"require": {},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Bonjour\\BonjourServiceProvider"
+			]
+		}
+	}
+}
